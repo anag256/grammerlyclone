@@ -1,0 +1,12 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.navBar>h3 {
+    color: #0e101a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: sans-serif;
+}

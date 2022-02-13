@@ -1,0 +1,47 @@
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerSection {
+    background: url(https://static.grammarly.com/assets/files/06666c30f97cce25ac1cf1c4573332c2/swoosh.png);
+    min-height: 680px;
+    background-repeat: no-repeat;
+    background-position: -112px -59px;
+}
+.headerSection h2 {
+    font-family: Inter,sans-serif;
+    font-size: 42px;
+    letter-spacing: -.005em;
+    line-height: 52px;
+    color: #0E101A;
+    text-align: center;
+}
+.header__title {
+    flex-direction: column;
+}
+.suggestions>p {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.btn.headerSection__btn {
+    background: #11a683;
+    color: #fff;
+    padding: 15px 41px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media (max-width:1023px){
+    .headerSection h2 {
+        font-size: 24px;
+    }
+    .headerSection {
+       
+        width: 100%;
+    }
+ 
+
+}

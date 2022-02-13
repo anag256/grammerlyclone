@@ -1,0 +1,133 @@
+.sub_section_title {
+    text-align: center;
+}
+.sub_section_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: auto;
+}
+.sub_section_bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sub_section_left {
+    margin-right: 105px;
+}
+.sub_section_title>h3 {
+    font-family: Inter,sans-serif;
+    font-size: 29px;
+    letter-spacing: -.003em;
+    line-height: 38px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.sub_section_title>h4 {
+    font-size: 18px;
+    line-height: 32px;
+    color: #0E101A;
+    text-align: center;
+    font-weight: 200;
+}
+.sub_section>p {
+    font-family: Inter,sans-serif;
+    font-size: 11px;
+    letter-spacing: .04em;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #6D758D;
+}
+.sub_section.sub_section_right {
+    width: 30%;
+}
+.sub_section>h4 {
+    font-weight: 100;
+    margin: 10px 0;
+}
+.suggestions {
+    margin-top: 20px;
+    position: relative;
+}
+.suggestions>div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 15px;
+    align-items: center;
+    width: fit-content;
+}
+.encl>p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suggestions>div>span:first-child {
+    margin-right: 5px;
+}
+.suggestions span:nth-child(2) {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.suggestions .border_image {
+    background: #333954;
+    padding: 13px;
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    left: 30px;
+    z-index: 100;
+    top: 24px;
+    cursor: pointer;
+    border-radius: 6px;
+     min-width: 180px;
+
+}
+.suggestions>div {
+    margin-bottom: 10px;
+}
+.suggestions .border_image.active{
+    display: block;
+}
+.suggestions .notxtdec span{
+    border-bottom: none;
+    cursor: auto;
+}
+.dispnone{
+    display: none;
+}
+.border_image>img {
+    margin-bottom: 10px;
+}
+.div_cont>p {
+    display: inline;
+}
+@media(max-width:1023px){
+    .sub_section_container {
+        max-width: 375px;
+        padding: 0 25px;
+    }
+    .sub_section_title>h4 {
+        text-align: left;
+    }
+    .sub_section_bottom {
+        flex-direction: column;
+    }
+    .sub_section_left {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .sub_section.sub_section_right {
+        width: 100%;
+    }
+    .border_image {
+        width: 260px;
+    }
+    .border_image img {
+        width: 100%;
+    }
+  
+}

@@ -1,0 +1,38 @@
+.upgrade {
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    margin-top: 120px;
+
+}
+
+.upgradeSection{
+   background:  no-repeat left -200px bottom -90px url(https://static.grammarly.com/assets/files/7704056c286a7b6b242f7f6839113502/swoosh.png);
+    height:300px;
+}
+.upgrade>h3 {
+    font-family: Inter, sans-serif;
+    font-size: 42px;
+    letter-spacing: -0.005em;
+    line-height: 52px;
+}
+.upgrade>p {
+    font-size: 20px;
+    line-height: 32px;
+}
+@media(max-width:1023px){
+.upgrade>h3 {
+    font-size: 30px;
+}
+.upgrade {
+    margin-top: 30px;
+}
+.upgradeSection {
+    /* max-width: 320px; */
+    padding: 20px;
+}
+.upgrade>p {
+    font-size: 16px;
+    line-height: 26px;
+}
+}

@@ -1,0 +1,80 @@
+.text_percent_sec {
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: flex-start;
+}
+.text_percent_sec>h3 {
+    font-family: Inter,sans-serif;
+    font-size: 29px;
+    letter-spacing: -.003em;
+    line-height: 38px;
+    margin-bottom: 14px;
+}
+.percent_num svg circle {
+    fill: none;
+    /* fill: none;
+    stroke: #11a683;
+    stroke-width: 3px;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: stroke 9.5s steps(500) forwards; */
+}
+svg.circular-chart {
+    transform: rotate(-451deg);
+}
+.circle_span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.progress {
+    position: relative;
+    margin-bottom: 20px;
+}
+.pos {
+    position: relative;
+    max-width: 155px;
+}
+.counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.indiv_percent {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.percentSection_container {
+    max-width: 1024px;
+    margin: auto;
+}
+.text_percent_sec>p {
+    font-size: 18px;
+    line-height: 32px;
+}
+.indiv_percent .monocl{
+    color: #0e101a;
+    font-family: Inter,sans-serif;
+    font-size: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.indiv_percent p {
+    padding-top: 25px;
+}
+@media(max-width:1023px){
+    .percentSection {
+        max-width: 320px;
+        margin: auto;
+    }
+    .percent_num {
+        flex-direction: column;
+    }
+ 
+}

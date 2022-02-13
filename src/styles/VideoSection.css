@@ -1,0 +1,68 @@
+.text_sec.d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-right: 80px;
+
+}
+.text_sec>p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.videoSection {
+    background: url(https://static.grammarly.com/assets/files/de31835f4f228f5ffb03a8a527a44413/swoosh.png);
+    background-repeat: no-repeat;
+    background-color: #3659B5;
+    padding: 80px 30px;
+    margin-top: 40px;
+    background-position: bottom -70px right -300px;
+}
+.vid_inner.d-flex {
+    max-width: 1024px;
+    margin: auto;
+}
+.vid>img {
+    border-radius: 10px;
+}
+.text_sec{
+    color: #fff;
+}
+.text_sec>h3 {
+    font-family: Inter,sans-serif;
+    font-size: 29px;
+    letter-spacing: -.003em;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+@media(max-width:1023px){
+    .text_sec.d-flex {
+        width: 100%;
+    }
+    .vid_inner.d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .vid_inner.d-flex {
+        max-width: 375px;
+        padding: 0 25px;
+        margin: auto;
+    }
+    .text_sec.d-flex {
+        margin-right: 0;
+    }
+    .vid>img {
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+.videoSection {
+    background: url(https://static.grammarly.com/assets/files/dd0e87cc2bdc870fce2dc3c4cb554dd1/mobile_swoosh.png);
+    background-repeat: no-repeat;
+    background-color: #3659B5;
+    padding: 80px 30px;
+    margin-top: 40px;
+    background-position: bottom -50px right -200px;
+}
+}
