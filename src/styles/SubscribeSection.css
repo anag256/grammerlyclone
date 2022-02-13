@@ -129,5 +129,9 @@
     .border_image img {
         width: 100%;
     }
+    .sub_section_title>h3 {
+    
+        text-align: left;
+    }
   
 }
